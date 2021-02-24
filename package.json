@@ -1,0 +1,27 @@
+{
+  "name": "webdriverio-test",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn build &&  wdio wdio.conf.js",
+    "build": "rimraf ./build && tsc --rootDir ./src"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.11.3"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^6.11.3",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chromedriver": "^87.0.5",
+    "wdio-chromedriver-service": "^6.0.4",
+    "@wdio/devtools-service": "^6.3.7",
+    "typescript": "^3.3.3",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.5",
+    "dotenv": "^8.2.0",
+    "babel-eslint": "^10.1.0"
+
+  }
+}
