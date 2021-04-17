@@ -4,3 +4,4 @@ build
 logs
 .env.example
 results
+node_modules
